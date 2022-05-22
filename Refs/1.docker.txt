@@ -1,0 +1,55 @@
+docker-compose up -d
+∟ general usage
+
+docker-compose up -d postgres
+∟ especially for postgres
+
+→ create the file of volumen
+
+verify the container is running
+$ docker-compose ps
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+upload the pgadmin container
+$ docker-compose up -d pgadmin
+
+
+Enter to the container postgres
+498  docker-compose exec postgres bash
+
+In the server postgres
+root@f6fa3b36b504:/# psql -h localhost -d my_store -U jalz
+
+:: \l
+:: \c my_db
+
+:: \q
+exit
+
+Inspect the IP container postgres
+500  docker inspect f6fa3b36b504
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OTHER
+
+instans-1db
+
+postgres
+
+123456798
+
+5432
+
+firstdb
