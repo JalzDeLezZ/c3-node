@@ -1,3 +1,4 @@
+const passport = require('passport');
 const express = require('express');
 
 const CategoryService = require('./../services/category.service');
@@ -30,6 +31,7 @@ router.get('/:id',
 );
 
 router.post('/',
+  passport.authenticate('jwt', { session: false }),
   validatorHandler(createCategorySchema, 'body'),
   async (req, res, next) => {
     try {

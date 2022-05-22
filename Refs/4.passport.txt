@@ -1,0 +1,28 @@
+$ npm i passport
+$ npm install passport-local
+
+create file utils/auth/index.js
+create file utils/auth/strategies/local.strategy.js
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+JWT - JSON Web Token
+npm install jsonwebtoken
+
+
+((------DOCUMENTATION------))
+https://www.passportjs.org/packages/passport-local/
+https://jwt.io/libraries?language=Node.js
+
+
+Key Generator by my secret key
+https://randomkeygen.com/
+
+
+
+// PASPORT JWT
+https://www.passportjs.org/packages/passport-jwt/
+
+npm install passport-jwt
+
