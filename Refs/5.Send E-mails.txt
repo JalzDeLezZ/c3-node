@@ -1,0 +1,6 @@
+Nodemailer
+https://nodemailer.com/about/
+npm install nodemailer
+
+
+https://ethereal.email/
